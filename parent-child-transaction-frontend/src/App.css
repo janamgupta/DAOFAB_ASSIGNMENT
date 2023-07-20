@@ -1,0 +1,30 @@
+/* Add a global table style */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style table header */
+table th {
+  background-color: #f2f2f2;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Style table cells */
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style the parent transactions table */
+.parent-transactions-table {
+  margin-bottom: 40px;
+}
+
+/* Style the child transactions table */
+.child-transactions-table {
+  margin-top: 40px;
+}
+

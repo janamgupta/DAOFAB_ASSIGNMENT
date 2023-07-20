@@ -1,0 +1,39 @@
+.child-transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .child-transactions-table th {
+    background-color: #f2f2f2;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .child-transactions-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .child-transactions-table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .child-transactions-table .parent-transaction-details {
+    margin-top: 20px;
+  }
+  
+  .child-transactions-table .parent-transaction-details h3 {
+    margin-bottom: 10px;
+  }
+  
+  .child-transactions-table .parent-transaction-details p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+
+  .child-heading{
+    text-align: center;
+  }
+  

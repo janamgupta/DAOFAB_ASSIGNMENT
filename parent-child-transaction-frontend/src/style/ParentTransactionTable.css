@@ -1,0 +1,77 @@
+.parent-transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .parent-transactions-table th {
+    background-color: #f2f2f2;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .parent-transactions-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .parent-transactions-table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  .parent-transactions-pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .parent-transactions-pagination .pagination-link {
+    padding: 8px 12px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .parent-transactions-pagination .pagination-link.active {
+    background-color: #ddd;
+    font-weight: bold;
+  }
+  
+  .parent-transactions-pagination .pagination-link:hover {
+    background-color: #e6e6e6;
+  }
+
+  .parent-heading {
+    text-align: center;
+  }
+
+  .parent-transactions-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+    margin: 0 4px;
+  }
+  
+  .pagination-button:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .pagination-button.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
+  
